@@ -12,10 +12,11 @@ int main()
 {
     //Fill This Field With A Random Word Fill All Randomizable Fields
     
-
-    string VERB = "paint";
-    string ADJECTIVE = "huge";
+    //Added NOUN,VERB,Type_OF_Liquid to suit the needs for the MadLib
+    string NOUN = "DOG";
+    string VERB = "JUMP";
     string PLURAL_NOUN = "bananas";
+    string Type_OF_Liquid = "POOL";
     string ADJECTIVE2 = "";
     string VERB_ENDING_IN_ING = "";
     string VERB2  = "";
@@ -33,7 +34,7 @@ int main()
     cout << endl;
     cout << endl;
     
-    cout << "Come "<< VERB << " at WALMART, where you`ll receive " << ADJECTIVE << " discounts on all of your favorite brand name " << PLURAL_NOUN << "." << endl;
+    cout << "Wake up to the sound of the " << NOUN << " barking. " << VERB <<  " out of bed and go immediately to the " << Type_OF_Liquid << "." << endl;
  
     
 /*
