@@ -1,0 +1,7 @@
+Customer Purchase Receipt
+-------------------------
+Hot Dogs: $8
+French fries: $4
+Cheeseburger: $16
+-------------------------
+Total Cost: $28
