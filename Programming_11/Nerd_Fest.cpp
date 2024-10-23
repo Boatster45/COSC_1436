@@ -30,7 +30,7 @@ int main() {
     int costPerPerson = totalCost / numNerds;
 
     // Output results
-    cout << "Minimum number of Busses required: " << numBusses << endl;
+    cout << "Minimum dnumber of Busses required: " << numBusses << endl;
     cout << "Minimum number of Vans required: " << numVans << endl;
     cout << "Minimum number of Group tickets required: " << numGroupTickets << endl;
     cout << "Number of individual tickets required: " << indTickets << endl;

@@ -1,6 +1,5 @@
-// Programing 6 (Refactored)
 // Created by Johnathan Kissee
-// 09/23/2024
+// 10/7/2024
 
 #include <iostream>
 #include <fstream>  
