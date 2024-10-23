@@ -1,6 +1,7 @@
 // Non-Linear_Growth.cpp
 // Created by Johnathan Kissee
 // 10/23/24
+
 #include <iostream>
 using namespace std;
 
@@ -31,7 +32,7 @@ int main() {
 
         if (cells > 20000 && (!detected)) 
         {
-            cout << "Tumor detected on day " << days << ", with a size of " << cells << " cells." <<endl;
+            cout << "||| Tumor detected at Year " << (days / 365) << " Day " << (days % 365) << ", with a size of " << cells << " cells. |||" <<endl;
             detected = true;
         }
 
@@ -39,7 +40,7 @@ int main() {
         days = days + 154; // every 154 days
     }
 
-    cout << "Day " << days << ": Intervention Required. The tumor contains " << cells << " cells." << endl;
+    cout << "Year " << (days / 365) << " Day " << (days % 365) << ": Intervention Required. The tumor contains " << cells << " cells." << endl;
 
     return 0;
 }
